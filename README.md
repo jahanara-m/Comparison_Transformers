@@ -77,26 +77,20 @@ The easiest way to review the full analysis is in Google Colab:
 
 ---
 
-##  Project Contents
+## 📁 Project Contents
 
-.
-├── Comparison_Transformers.ipynb  # Main analysis notebook
-├── README.md                       # This documentation
-├── requirements.txt                # Python package dependencies
-├── Dataset.csv                     # The labeled dataset for classification
-├── .gitignore                      # Ignores the `/results/` folder (Optional, but recommended)
-└── results/                        # Auto-generated outputs (NOT tracked in version control)
-    ├── roberta_baseline/
-    │   ├── config.json
-    │   ├── metrics.json
-    │   └── confusion_matrix.png
-    ├── roberta_advanced/
-    │   └── ...
-    ├── mentalroberta_baseline/
-    │   └── ...
-    └── mentalroberta_advanced/
-        └── ...
+**Root Files:**
+- `Comparison_Transformers.ipynb` - Main analysis notebook
+- `README.md` - This documentation
+- `requirements.txt` - Python package dependencies  
+- `Dataset.csv` - The labeled dataset for classification
 
+**Generated Outputs (not version controlled):**
+- `results/` - Auto-generated experiment results
+  - `roberta_baseline/` - Results from Experiment 1
+  - `roberta_advanced/` - Results from Experiment 2  
+  - `mentalroberta_baseline/` - Results from Experiment 3
+  - `mentalroberta_advanced/` - Results from Experiment 4
 
 ---
 
