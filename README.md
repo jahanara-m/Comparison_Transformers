@@ -77,7 +77,7 @@ The easiest way to review the full analysis is in Google Colab:
 
 ---
 
-## 📁 Project Contents
+##  Project Contents
 
 **Root Files:**
 - `Comparison_Transformers.ipynb` - Main analysis notebook
