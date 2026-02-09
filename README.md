@@ -2,7 +2,7 @@
 **A Comparative Study of Transformers and Text Preprocessing for Analytics**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-https://colab.research.google.com/github/jahanara-m/Comparison__Transformers/blob/main/Comparison_Transformers.ipynb
+https://colab.research.google.com/github/jahanara-m/Comparison_Transformers/blob/main/Comparison_Transformers.ipynb
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **TL;DR:** A controlled experiment comparing transformer models and text preprocessing for classifying mental health posts. Key finding: Domain-specific pretraining (`MentalRoBERTa`) is more impactful than advanced text cleaning, providing an efficient, high-accuracy pipeline.
@@ -54,15 +54,15 @@ The analysis follows a structured, reproducible pipeline in `Comparison_Transfor
 
 ### **Option A: One-Click Live Demo (Recommended)**
 The easiest way to review the full analysis is in Google Colab:
-1.  Click the **[Open In Colab](https://colab.research.google.com/github/jahanara-m/Comparison__Transformers/blob/main/Comparison_Transformers.ipynb)** badge above.
+1.  Click the **[Open In Colab](https://colab.research.google.com/github/jahanara-m/Comparison_Transformers/blob/main/Comparison_Transformers.ipynb)** badge above.
 2.  In Colab, go to **Runtime > Run all** (`Ctrl+F9` / `Cmd+F9`).
 3.  *For MentalRoBERTa experiments:* **You will be prompted to log in** with a [Hugging Face token](https://huggingface.co/settings/tokens) (free, read-access is enough). See the [Authentication Note](#authentication-note) above.
 
 ### **Option B: Run Locally**
 1.  **Clone** the repository:
     ```bash
-    git clone https://github.com/jahanara-m/Comparison__Transformers.git
-    cd Comparison__Transformers
+    git clone https://github.com/jahanara-m/Comparison_Transformers.git
+    cd Comparison_Transformers
     ```
 2.  **Install** dependencies:
     ```bash
