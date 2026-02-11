@@ -29,10 +29,9 @@ https://colab.research.google.com/github/jahanara-m/Comparison_Transformers/blob
 
 ---
 
-##  Key Insight & Recommendation
+##  Key Insight
 
-**Finding:** While the domain-specific model (MentalRoBERTa) performed best overall, advanced preprocessing (stopword removal & stemming) consistently degraded performance for both models. This suggests that for nuanced mental health language, standard text normalization can remove critical signal.
-**Recommendation:** The optimal and most efficient pipeline is MentalRoBERTa with only basic preprocessing, achieving an F1-score of **84.87%**. This insight could save significant feature engineering effort in a production system with no loss in accuracy.
+While the domain-specific model (MentalRoBERTa) performed best overall, advanced preprocessing (stopword removal & stemming) consistently degraded performance for both models. This suggests that for nuanced mental health language, standard text normalization can remove critical signal. The optimal and most efficient pipeline is MentalRoBERTa with only basic preprocessing, achieving an F1-score of **84.87%**. This insight could save significant feature engineering effort in a production system with no loss in accuracy.
 
 ---
 
